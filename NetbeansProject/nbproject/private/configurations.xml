@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 10.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.15 -v 0.985 -f /home/victor/Documentos/Validacao/MultiViewData/ANIMAL.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 50.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.15 -v 0.985 -f /home/victor/Documentos/Validacao/MultiViewData/ANIMAL.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 50.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.15 -v 0.985 -f /home/victor/Documentos/Validacao/MultiViewData/TEXAS.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 50.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.09 -v 0.965 -f /home/victor/Documentos/Validacao/MultiViewData/TEXAS.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 50.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.05 -v 0.975 -f /home/victor/Documentos/Validacao/MultiViewData/MOVIES.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 50.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.05 -v 0.975 -f /home/victor/Documentos/Validacao/MultiViewData/TEXAS.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 100.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.05 -v 0.975 -f /home/victor/Documentos/Validacao/MultiViewData/MFEAT.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 100.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.04 -v 0.965 -f /home/victor/Documentos/Validacao/MultiViewData/MFEAT.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 10.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.07 -v 0.945 -f /home/victor/Documentos/Validacao/MultiViewData/ANIMAL.arff</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -n 10.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.07 -v 0.945 -f /home/victor/Documentos/Validacao/MultiViewData/MOVIES.arff</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" -n 10.0 -e 5.0E-4 -g 1.0E-6 -m 20.0 -s 0.1 -p 0.001 -w 0.5 -i 10.0 -l 0.07 -v 0.945 -f /home/victor/Documentos/Validacao/MultiViewData/MOVIES.arff</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
